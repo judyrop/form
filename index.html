@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container" background color:lightblue>
+      <h1>Form-Input</h1>
+
+
+    <form class="form" action="index.html" method="post">
+      1. &nbsp&nbsp&nbsp First name: &nbsp&nbsp&nbsp <input type="text" name="firstname" value="" /> <br>
+      2. &nbsp&nbsp&nbsp Second name: &nbsp&nbsp&nbsp <input type="text" name="secondname" value=""> <br>
+      <img src="image/gyal.gif"width="70" height="70" alt="image of you">
+
+      <p><strong><em>Answer the questions</em></strong></p>
+      <p><strong>What is your favorite food?</strong></p>
+      <label>
+<input type="radio" name="dishes" value="chicken">Chicken Ugali</label>
+      <label>
+      <input type="radio" name="dishes" value="fish">Fish ugali</label>
+      <label> <input type="radio" name="dishes" value="Beef ugali"></label>
+      <p><strong>Which beverage do you prefer?</strong></p>
+      <input type="checkbox" name="beverage" value="tea">Tea <br>
+      <input type="checkbox" name="beverage" value="coffee">Coffee <br>
+      <input type="checkbox" name="beverage" value="juice">Juice <br>
+      <p><strong>Which is your leisure time activity?</strong></p>
+      <select class="form-control" id="activity">
+        <option>Swimming</option>
+        <option>Hiking</option>
+        <option>Playing games</option>
+        <option>Watching</option>
+
+      </select> <br>
+      <p><strong>Explain more about yourself? </strong></p>
+          About:<textarea wrap="virtual" name="About me" rows="3" cols="60" maxlength="100"></textarea> <br>
+
+
+
+ <button type="submit" class="Submit">Submit</button>
+
+    </form>
+   </div>
+  </body>
+</html>
